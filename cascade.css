@@ -1,0 +1,121 @@
+*{
+    font-family: serif;
+
+}
+.navbar-nav a{
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+    font-size: 0.7cm;
+}
+.navbar-nav a:hover{
+    width: 100%;
+    background-color: rgb(4, 4, 163);
+    border: 1px solid ;
+    transition: 0.5s;
+}
+#card{
+    padding: 20px;
+    margin: 10px;
+    
+}
+.cantainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    height: 100vh;
+    flex-wrap: wrap;
+    /* padding: 50px 0px; */
+    /* margin: 10px; */
+}
+.cantainer .card{
+    position: relative;
+    width: 400px;
+    height: 100vh;
+    box-shadow: inset 5px 5px 5px rgba(0, 0,0, 0.05),
+                inset -5px -5px 5px rgba(255, 255,255, 0.5),
+                5px 5px 5px rgba(0, 0,0, 0.05),
+                -5px -5px 5px rgba(255, 255,255, 0.5);
+    border-radius: 15px; 
+    /* margin: 60px; */
+    /* padding: 40px;            */
+}
+.carousel-inner{
+    margin-right: 20px;
+    padding: 40px;
+}
+.cantainer .card .box{
+    position: absolute;
+    top: 40px;
+    left: 30px;
+    right: 30px;
+    bottom: 20px;
+    background: #ebf5fc;
+    box-shadow: 0px 10px 20px rgba(0,0,0,0.1);
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+}
+.cantainer .card:hover .box
+{
+    transform: translateY(-50px);
+    box-shadow: 0px 10px 40px rgba(0, 0,0, 0.2);
+    background: linear-gradient(45deg, #fd61f0, #4f21e9);
+}
+.cantainer .card .box .content{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.visit{
+    font-size: 0.6cm;
+    text-align: center;
+    padding-top: 40px;
+    margin: 20px;
+    /* margin: 5px; */
+    z-index: 1;
+    transition: 0.5s;
+
+}
+p{
+    font-size: 0.4cm;
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+    z-index: 1;
+    transition: 0.5s;
+
+}
+
+ .read{
+
+    text-align: center;
+    position: relative;
+    display: inline-block;
+    padding: 12px 20px;
+    background: #03a9f4;
+    /* margin:40px ; */
+    border-radius: 20px;
+    color: #ffff;
+    text-decoration: none;
+    font-weight: 200;
+    box-shadow: 0 10px  20px rgba(0,0,0,0.2);
+    transition: 1s;
+    /* margin-bottom: 10px; */
+
+}
+.cantainer .card:hover .box .content a
+{
+    background: #fa4e87;
+    color: whitesmoke;
+}
+.footer {
+    padding: 20px;
+    margin: 10px;
+    color: whitesmoke;
+    background-color: black;
+    font-size: 0.6cm;
+}
